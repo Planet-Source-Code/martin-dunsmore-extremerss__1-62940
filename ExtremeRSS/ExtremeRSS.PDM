@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Extreme RSS Setup Package
+
+
+[Package|Extreme RSS Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package
+
+[Package|Extreme RSS Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Extreme RSS Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Extreme RSS Setup Package|Files Found]
+
+[Package|Extreme RSS Setup Package|Files Released]
+
+[Package|Extreme RSS Setup Package|Missing Dependency Information]
+C:\WINNT\SYSTEM32\msxml3.dll=
+
+[Package|Extreme RSS Setup Package|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\scrrun.dll=
+
+[Package|Extreme RSS Setup Package|Files Added]
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\HTML\Bullet.jpg=
+
+[Package|Extreme RSS Setup Package|Files Removed]
+
+[Package|Extreme RSS Setup Package|Files In Project]
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\ExtremeRSS.exe=Yes
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\scrrun.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+C:\WINNT\SYSTEM32\msxml3.dll=Yes
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINNT\SYSTEM32\MSCOMCT2.OCX=Yes
+C:\WINNT\SYSTEM32\COMCT332.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\HTML\Bullet.jpg=Yes
+
+[Package|Extreme RSS Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Extreme RSS Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Extreme RSS Setup Package|Install Locations]
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\ExtremeRSS.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\scrrun.dll=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\msxml3.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\HTML\Bullet.jpg=$(AppPath)
+
+[Package|Extreme RSS Setup Package|Configure Shared Files]
+Applicable=Yes
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\ExtremeRSS.exe=No
+\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\HTML\Bullet.jpg=No
+
+[Package|Extreme RSS Setup Package|Distribution]
+Type=single
+Size=
+Title=Extreme RSS
+
+[Package|Extreme RSS Setup Package|IconGroups]
+Group0=Extreme RSS
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Extreme RSS Setup Package|Extreme RSS]
+Icon1=ExtremeRSS.exe
+Title1=Extreme RSS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Extreme RSS Setup Package|Package]
+PackageFolder=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package
+ProjectFolder=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS
+ServerSideCab=
+File1=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package\setup.exe
+File2=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package\Setup.Lst
+File3=\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package\ExtremeRSS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

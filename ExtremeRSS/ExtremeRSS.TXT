@@ -1,0 +1,3 @@
+The cab file for your application has been built as '\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package\ExtremeRSS.CAB'.
+
+There is also a batch file in the support directory (\\pbnas01\DunsmoreM\Visual Basic\Source Code\ExtremeRSS\Package\Support\ExtremeRSS.BAT) that will allow you to recreate the cab file in case you make changes to some of the files.
